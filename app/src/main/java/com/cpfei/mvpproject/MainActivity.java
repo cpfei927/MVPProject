@@ -5,15 +5,14 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
-import android.widget.Toast;
 
-import com.cpfei.mvpproject.listener.loginResultListener;
+import com.cpfei.mvpproject.listener.OnLoginResultListener;
 import com.cpfei.mvpproject.model.IModel;
 import com.cpfei.mvpproject.presenter.IPresenterImpl;
 import com.cpfei.mvpproject.view.IView;
 
 public class MainActivity extends AppCompatActivity
-        implements View.OnClickListener, IView, loginResultListener {
+        implements View.OnClickListener, IView, OnLoginResultListener {
 
     protected EditText userName, password;
     protected IPresenterImpl iPresenter;

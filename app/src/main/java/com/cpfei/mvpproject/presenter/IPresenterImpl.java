@@ -2,7 +2,7 @@ package com.cpfei.mvpproject.presenter;
 
 import android.os.Handler;
 
-import com.cpfei.mvpproject.listener.loginResultListener;
+import com.cpfei.mvpproject.listener.OnLoginResultListener;
 import com.cpfei.mvpproject.model.IModel;
 import com.cpfei.mvpproject.view.IView;
 
@@ -13,7 +13,7 @@ import com.cpfei.mvpproject.view.IView;
 public class IPresenterImpl implements IPresenter {
 
     private final IView iView;
-    private loginResultListener listener;
+    private OnLoginResultListener listener;
     private IModel iModel;
 
     public IPresenterImpl(IView iView) {
@@ -45,7 +45,7 @@ public class IPresenterImpl implements IPresenter {
     }
 
     @Override
-    public void setLoginResultListener(loginResultListener listener) {
+    public void setLoginResultListener(OnLoginResultListener listener) {
         this.listener = listener;
     }
 }

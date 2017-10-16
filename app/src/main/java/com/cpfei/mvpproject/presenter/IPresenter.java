@@ -1,6 +1,6 @@
 package com.cpfei.mvpproject.presenter;
 
-import com.cpfei.mvpproject.listener.loginResultListener;
+import com.cpfei.mvpproject.listener.OnLoginResultListener;
 
 /**
  * Created by cpfei on 2017/10/16.
@@ -13,5 +13,5 @@ public interface IPresenter {
 
     void clearTextAll();
 
-    void setLoginResultListener(loginResultListener listener);
+    void setLoginResultListener(OnLoginResultListener listener);
 }
