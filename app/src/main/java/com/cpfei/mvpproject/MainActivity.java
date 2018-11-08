@@ -53,11 +53,11 @@ public class MainActivity extends AppCompatActivity
 
         userName = ((EditText) findViewById(R.id.userName));
         password = ((EditText) findViewById(R.id.password));
-
-        password.setText("我是来捣乱的");
+//你解决冲突了吗
+//我再等啊
 		userName.setText("cpfei927");
 		password.setText("827626908gh");
-
+		password.setBackground(Color.parseColor("#FFFFFF:"));
     }
 
     @Override
