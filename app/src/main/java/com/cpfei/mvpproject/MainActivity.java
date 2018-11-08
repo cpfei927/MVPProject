@@ -26,10 +26,6 @@ public class MainActivity extends AppCompatActivity
 
         initView2();
 
-        initView2();
-
-        initView2();
-
         iPresenter = new IPresenterImpl(this);
         iPresenter.setLoginResultListener(this);
         //====================== Add by rqhua ======================
