@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity
 
         iPresenter = new IPresenterImpl(this);
         iPresenter.setLoginResultListener(this);
+        //====================== Add by rqhua ======================
     }
 
     protected void initView() {
