@@ -57,7 +57,8 @@ public class MainActivity extends AppCompatActivity
 
         userName = ((EditText) findViewById(R.id.userName));
         password = ((EditText) findViewById(R.id.password));
-
+//你解决冲突了吗
+//我再等啊
 		userName.setText("cpfei927");
 		password.setText("827626908gh");
     }
