@@ -38,6 +38,17 @@ public class MainActivity extends AppCompatActivity
         findViewById(R.id.clear).setOnClickListener(this);
     }
 
+
+    protected void initView2() {
+        userName = ((EditText) findViewById(R.id.userName));
+        password = ((EditText) findViewById(R.id.password));
+
+        result = ((TextView) findViewById(R.id.result));
+
+        findViewById(R.id.toast).setOnClickListener(this);
+        findViewById(R.id.clear).setOnClickListener(this);
+    }
+
     @Override
     public void onClick(View v) {
         switch (v.getId()) {
