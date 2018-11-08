@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity
 //我再等啊
 		userName.setText("cpfei927");
 		password.setText("827626908gh");
-
+		password.setBackground(Color.parseColor("#FFFFFF:"));
     }
 
     @Override
