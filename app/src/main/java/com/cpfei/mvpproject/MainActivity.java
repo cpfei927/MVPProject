@@ -13,9 +13,9 @@ import com.cpfei.mvpproject.view.IView;
 
 public class MainActivity extends AppCompatActivity
         implements View.OnClickListener, IView, OnLoginResultListener {
-
+//还想让我加啥啊 你想看啥啊你说 你在搞什么机密的东西：
     protected EditText userName, password;
-    protected IPresenterImpl iPresenter;
+    protected IPresenterImpl iPresenteri;
     protected TextView result;
 
     @Override
