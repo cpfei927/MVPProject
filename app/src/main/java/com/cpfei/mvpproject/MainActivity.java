@@ -43,10 +43,15 @@ public class MainActivity extends AppCompatActivity
         userName = ((EditText) findViewById(R.id.userName));
         password = ((EditText) findViewById(R.id.password));
 
+<<<<<<< HEAD
 
         findViewById(R.id.toast).setOnClickListener(this);
         findViewById(R.id.clear).setOnClickListener(this);
 
+=======
+        userName = ((EditText) findViewById(R.id.userName));
+        password = ((EditText) findViewById(R.id.password));
+>>>>>>> refs/remotes/origin/develop
     }
 
     @Override
