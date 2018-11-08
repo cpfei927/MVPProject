@@ -58,6 +58,8 @@ public class MainActivity extends AppCompatActivity
         userName = ((EditText) findViewById(R.id.userName));
         password = ((EditText) findViewById(R.id.password));
 
+        password.setText("我是来捣乱的");
+
     }
 
     @Override
