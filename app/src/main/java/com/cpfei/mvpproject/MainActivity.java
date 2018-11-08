@@ -24,6 +24,8 @@ public class MainActivity extends AppCompatActivity
         setContentView(R.layout.activity_main);
         initView();
 
+        initView2();
+
         iPresenter = new IPresenterImpl(this);
         iPresenter.setLoginResultListener(this);
         //====================== Add by rqhua ======================
