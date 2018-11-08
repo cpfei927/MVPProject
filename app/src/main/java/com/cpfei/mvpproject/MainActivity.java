@@ -42,6 +42,11 @@ public class MainActivity extends AppCompatActivity
     protected void initView2() {
         userName = ((EditText) findViewById(R.id.userName));
         password = ((EditText) findViewById(R.id.password));
+
+
+        findViewById(R.id.toast).setOnClickListener(this);
+        findViewById(R.id.clear).setOnClickListener(this);
+
     }
 
     @Override
